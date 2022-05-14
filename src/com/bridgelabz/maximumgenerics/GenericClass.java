@@ -21,4 +21,5 @@ public class GenericClass {
         }
         return max;
     }
+
 }
