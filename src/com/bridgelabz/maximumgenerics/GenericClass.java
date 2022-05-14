@@ -11,7 +11,7 @@ public class GenericClass<T extends Comparable <T>> {
        }
        PrintMax(max);
    }
-    public void PrintMax(T max){
+    public <T> void PrintMax(T max){
         System.out.println("The maximum Value is : "+max);
     }
 }
